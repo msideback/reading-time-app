@@ -1,19 +1,1 @@
-sudo: false
 language: java
-install: true
-cache:
-  directories:
-  - "$HOME/.m2"
-before_install:
-- "./scripts/status-checks.sh verify"
-script:
-- "./scripts/status-checks.sh test"
-- "./scripts/status-checks.sh coverage"
-after_success: 
-env:
-  global:
-  - secure: IORWyb/2GJdnuOnCjNGJTxaR3mfImKEeqpX6xhb/Y5l7cyY30NViwQR8TCVgz/fX6jTZqqU9NDgdmRMDqpyx+lG/HW0eiPCPNcqwVYTaLVaIJbMpcZfPn5hSPM/lZqbgZb4T7RYWZ60X79tpjYbfLuvMhvEwP3u2K1Su97VFOdw=
-  - secure: WYCDoeFkfFDSCU40mwAEKCH1OLSqU8pOXpewm8SyzvJqownJ9As3tz0rl/yjgGd2Y69EcxjBxuqgEjhF6PeTJ6hmr7W30Uv5njEeSfkYNFMAdWOmy16fJXZ/fStPKqykstHo8G9La+ioXfTH/olb63FM9+sxCi26TdZzPZC51SU=
-  - secure: TGNYWDk3SCm2XERPzG7KSmIcereUPbhKqfc3RmUvHewFTUugiuADY8WzsUMk9mnfndNV8HkE+dYo8GfDs5XGKrp+V9xVQmcw34FTPq3TP135vD2DD+pc6uQoxBMhuOo1c9yaZ4QqhaXFLIKte+nXkMgpFVQO511kJB+Arz8QJyE=
-  - secure: zdpNE/hFIWEwdeTc/ZCphJQhANmufiAuy5fo8NI8N69kEuTt6W+XBKoRgMuccu58DHanZLyKG4XIFnxrt7x1TubnKmREdSjuBgCjqYj9mbDTsWHFC81p/wc8iFSFoiL0Ym2qLZchgbil3XXyK+TSEXYZNU6r0jN4+9omVIDM8W4=
-  - secure: 4hJOe/G8ViF0ROqXEuEG1JRnLd88JsxF4Zje+bq0SmZymSvaNrIHMK5S3Lv3xiWVeL/WO67pucw0+hL0trVp18VzQMsXi99wHkkHXGeP4rLnqUfryqjYuHunY7bP2Ww7mH+yy1uq1Jqs7JZBOIiyDAG06y3/I+8T0/fwenfa9mA=
